@@ -1,7 +1,13 @@
 <BREAKS>
   <BP>
     <UnitName>MAX10030_Exploring.c</UnitName>
-    <Line>77</Line>
+    <Line>91</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>MAX10030_Exploring.c</UnitName>
+    <Line>184</Line>
     <Enabled>True</Enabled>
     <Type>0</Type>
   </BP>

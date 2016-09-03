@@ -34,10 +34,11 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=3
+Count=4
 Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\
 Path1=C:\Users\cmc7\Desktop\MAX10030_Exploring\
 Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Click_Heartrate1\Uses\
 [HEADER_PATH]
 Count=0
 [HEADERS]
@@ -45,8 +46,10 @@ Count=0
 [PLDS]
 Count=0
 [Useses]
-Count=1
+Count=3
 File0=Software_I2C
+File1=I2C
+File2=C_String
 [EXPANDED NODES]
 Node1=Sources
 Count=1

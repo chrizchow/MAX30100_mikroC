@@ -3,18 +3,31 @@ main
 		GPIO_Clk_Enable
 		GPIO_Config
 			GPIO_Clk_Enable
-	MAX10030_Write
-		Soft_I2C_Start
-			Delay_1us
-		Soft_I2C_Write
-			Delay_1us
-		Soft_I2C_Stop
-			Delay_1us
-	MAX10030_Read
-		Soft_I2C_Start
-		Soft_I2C_Write
-		Soft_I2C_Read
-			Delay_1us
-		Soft_I2C_Stop
+	MAX30100_Init
+		GPIO_Digital_Input
+			GPIO_Config
+		NVIC_IntEnable
+		EnableInterrupts
+		MAX30100_Write
+			Soft_I2C_Start
+				Delay_1us
+			Soft_I2C_Write
+				Delay_1us
+			Soft_I2C_Stop
+				Delay_1us
+		MAX30100_Read
+			Soft_I2C_Start
+			Soft_I2C_Write
+			Soft_I2C_Read
+				Delay_1us
+			Soft_I2C_Stop
+	MAX30100_Read
+	Run
+		MAX30100_FIFO_Read
+			Soft_I2C_Start
+			Soft_I2C_Write
+			Soft_I2C_Read
+			Soft_I2C_Stop
 	__CC2DW
 	__FillZeros
+INTERRUPT
